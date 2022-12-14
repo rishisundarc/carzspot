@@ -1,0 +1,425 @@
+body{
+    background: linear-gradient(to bottom right,#22a6f0 10%,black 90%);
+    min-height: 100vh;
+}
+.m1{
+    left: 40px;
+    font-size: 30px;
+    position: relative;
+}
+.m2{
+    left: 40px;
+    top: -40px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    position: relative;
+}
+.buttonb1 {
+    border-radius: 4px;
+    background-color:aliceblue;
+    border: none;
+    color: black;
+    font-size: 20px;
+    height: 30px;
+    width: 120px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    position: relative;
+    top: 450px;
+    left: 1300px;
+  }
+  
+  .buttonb1 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .buttonb1 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .buttonb1:hover span {
+    padding-right: 25px;
+  }
+  
+  .buttonb1:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+.x1{
+    position: relative;
+    background-color: aliceblue;
+    width: 1200px;
+    height: 540px;
+    left: 100px;
+    opacity: 50%;
+    top: -50px;
+}
+.x2{
+    top: -565px;
+    position: relative;
+    left: -300px;
+}
+.x3{
+    top: -620px;
+    position: relative;
+    left: 380px;
+}
+.x4{
+    top: -625px;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+    left: 330px;
+}
+.x5{
+    top: -555px;
+    position: relative;
+    left: -480px;
+    font-family:Arial, Helvetica, sans-serif
+}
+.x6{
+    top: -620px;
+    position: relative;
+    left: 130px;
+}
+.m3{
+    top: -620px;
+    position: relative;
+    left: 175px;
+}
+.x7{
+    top: -688px;
+    position: relative;
+    left: 380px;
+}
+.m4{
+    top: -690px;
+    position: relative;
+    left: 425px;
+}
+.m5{
+    top: -690px;
+    position: relative;
+    left: 425px;
+}
+.x8{
+    top: -790px;
+    position: relative;
+    left: 600px;
+}
+.m6{
+    top: -795px;
+    position: relative;
+    left: 650px;
+}
+.m7{
+    top: -795px;
+    position: relative;
+    left: 650px;
+}
+.x9{
+    top: -895px;
+    position: relative;
+    left: 880px;
+}
+.m8{
+    top: -895px;
+    position: relative;
+    left: 930px;
+}
+.m9{
+    top: -899px;
+    position: relative;
+    left: 930px;
+}
+.img{
+    background-image: url('./car.jpg');
+}
+.dia{
+    position: absolute;
+    top: 210px;
+    left: 110px;
+    opacity: 100%;
+}
+.z1{
+    position: relative;
+    background-color: aliceblue;
+    width: 1200px;
+    height: 540px;
+    left: 100px;
+    opacity: 50%;
+    top: -800px;
+}
+
+
+.buttonb2 {
+    border-radius: 4px;
+    background-color: white;
+    border: none;
+    color: black;
+    font-size: 20px;
+    height: 30px;
+    width: 120px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    position: relative;
+    top: -300px;
+    left: 1300px;
+  }
+  
+  .buttonb2 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .buttonb2 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .buttonb2:hover span {
+    padding-right: 25px;
+  }
+  
+  .buttonb2:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+.z2{
+    top: -1310px;
+    position: relative;
+    left: -250px;
+}
+.z3{
+    top: -1370px;
+    position: relative;
+    left: 375px;
+}
+.z4{
+    top: -1370px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+    left: 330px;
+}
+.z5{
+    top: -1310px;
+    position: relative;
+    left: -450px;
+    font-family:Arial, Helvetica, sans-serif
+}
+.z6{
+    top: -1370px;
+    position: relative;
+    left: 130px;
+}
+.o3{
+    top: -1370px;
+    position: relative;
+    left: 185px;
+}
+.z7{
+    top: -1473px;
+    position: relative;
+    left: 380px;
+}
+.o4{
+    top: -1478px;
+    position: relative;
+    left: 425px;
+}
+.o5{
+    top: -1480px;
+    position: relative;
+    left: 425px;
+}
+.z8{
+    top: -1575px;
+    position: relative;
+    left: 600px;
+}
+.o6{
+    top: -1580px;
+    position: relative;
+    left: 645px;
+}
+.o7{
+    top: -1580px;
+    position: relative;
+    left: 650px;
+}
+.z9{
+    top: -1678px;
+    position: relative;
+    left: 880px;
+}
+.o8{
+    top: -1680px;
+    position: relative;
+    left: 928px;
+}
+.o9{
+    top: -1680px;
+    position: relative;
+    left: 930px;
+}
+.img{
+    background-image: url('./car1.jpg');
+}
+.dia1{
+    position: absolute;
+    top: 880px;
+    left: 110px;
+}
+.i1{
+    position: relative;
+    background-color: aliceblue;
+    width: 1200px;
+    height: 540px;
+    left: 100px;
+    opacity: 50%;
+    top: -1585px;
+}
+.buttonb3 {
+    border-radius: 4px;
+    background-color: white;
+    border: none;
+    color: black;
+    font-size: 20px;
+    height: 30px;
+    width: 120px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    position: relative;
+    top: -1100px;
+    left: 1300px;
+  }
+  
+  .buttonb3 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .buttonb3 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .buttonb3:hover span {
+    padding-right: 25px;
+  }
+  
+  .buttonb3:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+.i2{
+    top: -2115px;
+    position: relative;
+    left: -200px;
+}
+.i3{
+    top: -2180px;
+    position: relative;
+    left: 360px;
+}
+.i4{
+    top: -2180px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: relative;
+    left: 330px;
+}
+.i5{
+    top: -2110px;
+    position: relative;
+    left: -450px;
+    font-family:Arial, Helvetica, sans-serif
+}
+.i6{
+    top: -2180px;
+    position: relative;
+    left: 150px;
+}
+.j3{
+    top: -2180px;
+    position: relative;
+    left: 185px;
+}
+.i7{
+    top: -2250px;
+    position: relative;
+    left: 380px;
+}
+.j4{
+    top: -2245px;
+    position: relative;
+    left: 425px;
+}
+.j5{
+    top: -2245px;
+    position: relative;
+    left: 425px;
+}
+.i8{
+    top: -2350px;
+    position: relative;
+    left: 600px;
+}
+.j6{
+    top: -2350px;
+    position: relative;
+    left: 645px;
+}
+.j7{
+    top: -2350px;
+    position: relative;
+    left: 645px;
+}
+.i9{
+    top: -2460px;
+    position: relative;
+    left: 880px;
+}
+.j8{
+    top: -2455px;
+    position: relative;
+    left: 928px;
+}
+.j9{
+    top: -2455px;
+    position: relative;
+    left: 930px;
+}
+.img{
+    background-image: url('./car.jpg');
+}
+.dia2{
+    position: absolute;
+    top: 1545px;
+    left: 110px;
+    opacity: 100%;
+}

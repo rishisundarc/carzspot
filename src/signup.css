@@ -1,0 +1,79 @@
+.boxsi{
+  background-color: rgb(255, 255, 255);
+  color: black;
+  padding: 15px 20px;
+  border: double;
+  cursor: pointer;
+  border-radius: 20px 25px;
+  border-style: solid;
+  position: absolute;
+  width: 450px;
+  height: 550px;
+  left: 520px;
+  top: 150px;
+}
+.s1{
+  font-size: 30px;
+  color: #22a6f0;
+  top: -20px;
+  left: 100px;
+  position: relative;
+}
+h2{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: italic;
+  font-size: 40px;
+  top: -50px;
+  left: 45px;
+  color: black;
+  position: relative;
+}
+h3{
+  background-color: whitesmoke;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 25px;
+  left: 1000px;
+  color: black;
+}
+.input-containers{
+  display: -ms-flexbox;
+  display: flex;
+  background: transparent;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.inputs{
+  position: absolute;
+  width: 500px;
+  height: 30px;
+  left: 110px;
+  top: 200px;
+}
+.input-fields{
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+  border-radius: 15px 20px;
+}
+.buttonc{
+  background-color: white;
+  color: black;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.9;
+  border-radius: 15px 20px;
+  border-style: solid;
+  border-color: black;
+  position: absolute;
+  width: 100px;
+  height: 50px;
+  left: 200px;
+  top: 430px;
+  text-align: center;
+}
+.buttonc:hover{
+  background-color: #22a6f0;
+  opacity: 100%;
+}
+

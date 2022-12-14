@@ -1,0 +1,246 @@
+
+.screen1{
+    position: absolute;
+    left: 160px;
+    top: 800px;
+}
+.screen2{
+    position: absolute;
+    left: 0px;
+    top:125px;
+}
+.screen3{
+    position: absolute;
+    left: 75%;
+    top: 6%;
+}
+.screen4{
+    position: absolute;
+    left: 3%;
+    top: 50%;
+}
+.screen5{
+    position: absolute;
+    left: 40%;
+    top: 50%;
+}
+.screen6{
+    position: absolute;
+    left: 75%;
+    top: 50%;
+}
+
+
+.border1{
+    width: 300px;
+    height: 300px;
+    left: -20px;
+    margin-top: 430px;
+    background-color: transparent;
+    
+}
+.border1 .info{
+    position: fixed;
+    color: white;
+    opacity: 0;
+    transform: translate(-50%);
+    transition: 0.5s;
+    white-space: nowrap;
+}
+
+.border1 .info button{
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+    background: black;
+    color: white;
+    overflow: hidden;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 1s ease;
+}
+
+.border1 img {
+    position: absolute;
+    height: 700px;
+    width: 1518px;
+    margin-top: 200px;
+    bottom: 30px;
+    margin-left: 0px;
+}
+
+.border1:hover{
+    background-color: transparent;
+}
+.border1:hover .info{
+    opacity: 1;
+    transform: translateZ(0px);
+}
+.border1 .info button:hover{
+    background-color: black;
+}
+.rs1{
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;      
+    border-radius: 15px 20px;
+    border-style: solid;
+    border-color: black;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 1050px;
+    top: 830px;
+    text-align: center;
+}
+.rs2{
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;      
+    border-radius: 15px 20px;
+    border-style: solid;
+    border-color: black;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 850px;
+    top: 830px;
+    text-align: center;
+}
+.rs3{
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;      
+    border-radius: 15px 20px;
+    border-style: solid;
+    border-color: black;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 450px;
+    top: 830px;
+    text-align: center;
+}
+.rs4{
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;      
+    border-radius: 15px 20px;
+    border-style: solid;
+    border-color: black;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 650px;
+    top: 830px;
+    text-align: center;
+}
+.rs5{
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;      
+    border-radius: 15px 20px;
+    border-style: solid;
+    border-color: black;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 1050px;
+    top: 1030px;
+    text-align: center;
+}
+.rs6{
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;      
+    border-radius: 15px 20px;
+    border-style: solid;
+    border-color: black;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 850px;
+    top: 1030px;
+    text-align: center;
+}
+.rs7{
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;      
+    border-radius: 15px 20px;
+    border-style: solid;
+    border-color: black;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 450px;
+    top: 1030px;
+    text-align: center;
+}
+.rs8{
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;      
+    border-radius: 15px 20px;
+    border-style: solid;
+    border-color: black;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 650px;
+    top: 1030px;
+    text-align: center;
+}
+
+/* Mobile page images*/
+.Brand{
+    background-image: url('./brand.png');
+}
+.Home{
+    background-image: url('./homes.png');
+}
+
+.Logo{
+    background-image: url('./carzspot.png');
+    
+}
+/* FONTS*/
+.rishi{
+    position: absolute;
+    width: 813px;
+    height: 152px;
+    left: 100px;
+    top: 350px;
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 50px;
+    
+    color: red;
+}
