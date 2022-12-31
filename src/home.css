@@ -7,16 +7,16 @@
 .screen2{
     position: absolute;
     left: 0px;
-    top:125px;
+    top:130px;
 }
 .screen3{
     position: absolute;
-    left: 75%;
+    left: 700px;
     top: 6%;
 }
 .screen4{
     position: absolute;
-    left: 3%;
+    left: -100px;
     top: 50%;
 }
 .screen5{
@@ -32,15 +32,15 @@
 
 
 .border1{
-    width: 300px;
+    width: 100px;
     height: 300px;
-    left: -20px;
-    margin-top: 430px;
+    left: 100px;
+    margin-top: 330px;
     background-color: transparent;
     
 }
 .border1 .info{
-    position: fixed;
+    position: absolute;
     color: white;
     opacity: 0;
     transform: translate(-50%);
@@ -62,9 +62,9 @@
 
 .border1 img {
     position: absolute;
-    height: 700px;
-    width: 1518px;
-    margin-top: 200px;
+    height: 600px;
+    width: 600px;
+    margin-top: 250px;
     bottom: 30px;
     margin-left: 0px;
 }
@@ -77,6 +77,321 @@
     transform: translateZ(0px);
 }
 .border1 .info button:hover{
+    background-color: black;
+}
+.border2{
+    width: 100%;
+    height: 100%;
+    left: -100px;
+    margin-top: 1430px;
+    margin-left: -400px;
+    background-color: black;
+    
+}
+.border2 .info{
+    position: absolute;
+    color: white;
+    opacity: 0;
+    transform: translate(-50%);
+    transition: 0.5s;
+    white-space: nowrap;
+}
+
+.border2 .info button{
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+    background: black;
+    color: white;
+    overflow: hidden;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 1s ease;
+}
+
+.border2 img {
+    position: absolute;
+    height: 600px;
+    width: 900px;
+    margin-top: 0px;
+    bottom: 30px;
+    margin-left: 0px;
+}
+.border2:hover .info{
+    opacity: 1;
+    transform: translateZ(0px);
+}
+.border2 .info button:hover{
+    background-color: black;
+}
+.border3{
+    width: 100%;
+    height: 100%;
+    left: -100px;
+    margin-top: 10px;
+    margin-left: 00px;
+    background-color: black;
+}
+.border3 .info{
+    position: absolute;
+    color: white;
+    opacity: 0;
+    transform: translate(-50%);
+    transition: 0.5s;
+    white-space: nowrap;
+}
+
+.border3 .info button{
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+    background: black;
+    color: white;
+    overflow: hidden;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 1s ease;
+}
+
+.border3 img {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    margin-top: -200px;
+    bottom: 15px;
+    margin-left: 02px;
+}
+.border3:hover .info{
+    opacity: 1;
+    transform: translateZ(0px);
+}
+.border3 .info button:hover{
+    background-color: black;
+}
+.border4{
+    width: 100%;
+    height: 100%;
+    left: -100px;
+    margin-top: -0px;
+    margin-left: 00px;
+    background-color: black;
+    
+}
+.border4 .info{
+    position: absolute;
+    color: white;
+    opacity: 0;
+    transform: translate(-50%);
+    transition: 0.5s;
+    white-space: nowrap;
+}
+
+.border4 .info button{
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+    background: black;
+    color: white;
+    overflow: hidden;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 1s ease;
+}
+
+.border4 img {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    margin-top: -200px;
+    bottom: 15px;
+    margin-left: -40px;
+}
+.border4:hover .info{
+    opacity: 1;
+    transform: translateZ(0px);
+}
+.border4 .info button:hover{
+    background-color: black;
+}
+.border5{
+    width: 100%;
+    height: 100%;
+    left: -100px;
+    margin-top: -0px;
+    margin-left: 00px;
+    background-color: black;
+    
+}
+.border5 .info{
+    position: absolute;
+    color: white;
+    opacity: 0;
+    transform: translate(-50%);
+    transition: 0.5s;
+    white-space: nowrap;
+}
+
+.border5 .info button{
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+    background: black;
+    color: white;
+    overflow: hidden;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 1s ease;
+}
+
+.border5 img {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    margin-top: -200px;
+    bottom: 20px;
+    margin-left: -48px;
+}
+.border5:hover .info{
+    opacity: 1;
+    transform: translateZ(0px);
+}
+.border5 .info button:hover{
+    background-color: black;
+}
+.border6{
+    width: 100%;
+    height: 100%;
+    left: -100px;
+    margin-top: -0px;
+    margin-left: 00px;
+    background-color: black;
+    
+}
+.border6 .info{
+    position: absolute;
+    color: white;
+    opacity: 0;
+    transform: translate(-50%);
+    transition: 0.5s;
+    white-space: nowrap;
+}
+
+.border6 .info button{
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+    background: black;
+    color: white;
+    overflow: hidden;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 1s ease;
+}
+
+.border6 img {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    margin-top: -200px;
+    bottom: 20px;
+    margin-left: -48px;
+}
+.border6:hover .info{
+    opacity: 1;
+    transform: translateZ(0px);
+}
+.border6 .info button:hover{
+    background-color: black;
+}
+.border7{
+    width: 100%;
+    height: 100%;
+    left: -100px;
+    margin-top: -0px;
+    margin-left: 00px;
+    background-color: black;
+    
+}
+.border7 .info{
+    position: absolute;
+    color: white;
+    opacity: 0;
+    transform: translate(-50%);
+    transition: 0.5s;
+    white-space: nowrap;
+}
+
+.border7 .info button{
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+    background: black;
+    color: white;
+    overflow: hidden;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 1s ease;
+}
+
+.border7 img {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    margin-top: -200px;
+    bottom: 20px;
+    margin-left: -48px;
+}
+.border7:hover .info{
+    opacity: 1;
+    transform: translateZ(0px);
+}
+.border7 .info button:hover{
+    background-color: black;
+}
+
+.border8{
+    width: 100%;
+    height: 100%;
+    left: -100px;
+    margin-top: -0px;
+    margin-left: 00px;
+    background-color: black;
+    
+}
+.border8 .info{
+    position: absolute;
+    color: white;
+    opacity: 0;
+    transform: translate(-50%);
+    transition: 0.5s;
+    white-space: nowrap;
+}
+
+.border8 .info button{
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+    background: black;
+    color: white;
+    overflow: hidden;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 1s ease;
+}
+
+.border8 img {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    margin-top: -200px;
+    bottom: 20px;
+    margin-left: -48px;
+}
+.border8:hover .info{
+    opacity: 1;
+    transform: translateZ(0px);
+}
+.border8 .info button:hover{
     background-color: black;
 }
 .rs1{
@@ -92,9 +407,9 @@
     position: absolute;
     width: 100px;
     height: 100px;
-    left: 1050px;
-    top: 830px;
-    text-align: center;
+    left: 700px;
+    top: 330px;
+    text-align:justify;
 }
 .rs2{
     background-color: black;
@@ -109,8 +424,8 @@
     position: absolute;
     width: 100px;
     height: 100px;
-    left: 850px;
-    top: 830px;
+    left: 930px;
+    top: 330px;
     text-align: center;
 }
 .rs3{
@@ -126,8 +441,8 @@
     position: absolute;
     width: 100px;
     height: 100px;
-    left: 450px;
-    top: 830px;
+    left: 1150px;
+    top: 330px;
     text-align: center;
 }
 .rs4{
@@ -143,8 +458,8 @@
     position: absolute;
     width: 100px;
     height: 100px;
-    left: 650px;
-    top: 830px;
+    left: 700px;
+    top: 530px;
     text-align: center;
 }
 .rs5{
@@ -160,8 +475,8 @@
     position: absolute;
     width: 100px;
     height: 100px;
-    left: 1050px;
-    top: 1030px;
+    left: 930px;
+    top: 530px;
     text-align: center;
 }
 .rs6{
@@ -177,50 +492,100 @@
     position: absolute;
     width: 100px;
     height: 100px;
-    left: 850px;
-    top: 1030px;
+    left: 1160px;
+    top: 530px;
     text-align: center;
 }
 .rs7{
-    background-color: black;
-    color: white;
-    padding: 15px 20px;
-    border: none;
-    cursor: pointer;
-    opacity: 0.9;      
-    border-radius: 15px 20px;
-    border-style: solid;
-    border-color: black;
     position: absolute;
-    width: 100px;
-    height: 100px;
-    left: 450px;
-    top: 1030px;
-    text-align: center;
+    width: 813px;
+    height: 152px;
+    left: 550px;
+    top: 750px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 50px;
+    
+    color: black;
 }
 .rs8{
-    background-color: black;
-    color: white;
-    padding: 15px 20px;
-    border: none;
-    cursor: pointer;
-    opacity: 0.9;      
-    border-radius: 15px 20px;
-    border-style: solid;
-    border-color: black;
     position: absolute;
-    width: 100px;
-    height: 100px;
-    left: 650px;
-    top: 1030px;
-    text-align: center;
+    width: 813px;
+    height: 152px;
+    left: -600px;
+    top: px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 50px;
+    color: black;
 }
-
+.rs10{
+    position: absolute;
+    width: 813px;
+    height: 152px;
+    left: -600px;
+    top: 2000px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 50px;
+    color: black;
+}
+.rs9{
+    position: absolute;
+    width: 813px;
+    height: 152px;
+    left: -500px;
+    top: 1550px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 50px;
+    color: whitesmoke;
+}
+.rs11{
+    position: absolute;
+    width: 1500px;
+    height: 152px;
+    left: -500px;
+    top: 2150px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 50px;
+    color: whitesmoke;
+}
+.rs12{
+    position: absolute;
+    width: 1500px;
+    height: 152px;
+    left: -590px;
+    top: 2090px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 50px;
+    color: whitesmoke;
+}
+.rs13{
+    position: absolute;
+    width: 1500px;
+    height: 152px;
+    left: 790px;
+    top: 2200px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 50px;
+    color: whitesmoke;
+}
 /* Mobile page images*/
 .Brand{
     background-image: url('./brand.png');
 }
-.Home{
+.Car{
     background-image: url('./homes.png');
 }
 
@@ -233,14 +598,65 @@
     position: absolute;
     width: 813px;
     height: 152px;
-    left: 100px;
-    top: 350px;
-    
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    left: 700px;
+    top: 100px;
     font-style: normal;
     font-weight: 500;
     font-size: 60px;
     line-height: 50px;
-    
-    color: red;
+    color: black;
+}
+.con1 {
+    position: relative;
+    width: 50%;
+  }
+  
+  .img1 {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .mi1 {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .con1:hover .img1 {
+    opacity: 0.3;
+  }
+  
+  .con1:hover .mi1 {
+    opacity: 1;
+  }
+  
+  .te1 {
+    background-color: #04AA6D;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+.Brand{
+    background-repeat: no-repeat;
+    padding-top: 800px;
+    padding-left: 150px;
+}
+.f1{
+    background-color:white;
+    padding: 15px 20px;
+    border: none;
+    position: absolute;
+    width: 1900px;
+    height: 220px;
+    left: 0px;
+    top: 2625px;
 }

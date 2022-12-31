@@ -1,217 +1,208 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900');
+
 body{
-    background: linear-gradient(to bottom right,black 10%,#22a6f0 90%);
-    min-height: 125vh;
-    min-width: 0vh;
-    position: absolute;
-  }
-    .f{
-      position: fixed;
-    width: 813px;
-    height: 152px;
-    left: 45px;
-    top: -30px;
-    
-    font-family: 'Times New Roman', Times, serif;
-    font-style: normal;
-    font-weight: 1500;
-    font-size: 60px;
-    line-height: 160px;
-    
-    color: #22a6f0;
-    }
-    .t{
-        position: fixed;
-      width: 813px;
-      height: 152px;
-      left: 600px;
-      top: -130px;
-      
-      font-family: 'Times New Roman', Times, serif;
-      font-style: normal;
-      font-weight: 1500;
-      font-size: 60px;
-      line-height: 160px;
-      
-      color: black;
-      }
-      
-      .h1{
-        background-color: transparent;
-        color:white;
-        padding: 0px 20px;
-        border: none;
-        cursor: pointer;    
-        border-radius: 15px 20px;
-        position: fixed;
-        width: 100px;
-        height: 50px;
-        left: 250px;
-        top: 0px;
-        text-align: center;
-      }
-      .h1:hover{
-        color: red;
-      }
-      .h2{
-        background-color: transparent;
-        color:white;
-        padding: 0px 20px;
-        border: none;
-        cursor: pointer;    
-        border-radius: 15px 20px;
-        position: fixed;
-        width: 100px;
-        height: 50px;
-        left: 350px;
-        top: -50px;
-        text-align: center;
-      }
-      .h2:hover{
-        color: red;
-      }
-      .h3{
-        background-color: transparent;
-        color:white;
-        padding: 0px 20px;
-        border: none;
-        cursor: pointer;    
-        border-radius: 15px 20px;
-        position: fixed;
-        width: 100px;
-        height: 50px;
-        left: 450px;
-        top: -100px;
-        text-align: center;
-      }
-      .h3:hover{
-        color: red;
-      }
-      .h4{
-        background-color: transparent;
-        color:white;
-        padding: 0px 20px;
-        border: none;
-        cursor: pointer;    
-        border-radius: 15px 20px;
-        position: fixed;
-        width: 100px;
-        height: 50px;
-        left: 550px;
-        top: -150px;
-        text-align: center;
-      }
-      .h4:hover{
-        color: red;
-      }
-      .h5{
-        background-color: transparent;
-        color:white;
-        padding: 0px 20px;
-        border: none;
-        cursor: pointer;    
-        border-radius: 15px 20px;
-        position: fixed;
-        width: 100px;
-        height: 50px;
-        left: 680px;
-        top: -200px;
-        text-align: center;
-      }
-      .h5:hover{
-        color: red;
-      }
-      .h6{
-        background-color: transparent;
-        color:white;
-        padding: 0px 20px;
-        border: none;
-        cursor: pointer;    
-        border-radius: 15px 20px;
-        position: fixed;
-        width: 100px;
-        height: 50px;
-        left: 800px;
-        top: -250px;
-        text-align: center;
-      }
-      .h6:hover{
-        color: red;
-      }
-      .h7{
-        background-color: transparent;
-        color:white;
-        padding: 0px 20px;
-        border: none;
-        cursor: pointer;    
-        border-radius: 15px 20px;
-        position: fixed;
-        width: 100px;
-        height: 50px;
-        left: 930px;
-        top: -300px;
-        text-align: center;
-      }
-      .h7:hover{
-        color: red;
-      }
-      .h8{
-        background-color: transparent;
-        color:white;
-        padding: 0px 20px;
-        border: none;
-        cursor: pointer;    
-        border-radius: 15px 20px;
-        position: fixed;
-        width: 100px;
-        height: 50px;
-        left: 1050px;
-        top: -350px;
-        text-align: center;
-      }
-      .h8:hover{
-        color: red;
-      }
-      .h9{
-        background-color: transparent;
-        color:white;
-        padding: 0px 20px;
-        border: none;
-        cursor: pointer;    
-        border-radius: 15px 20px;
-        position: fixed;
-        width: 100px;
-        height: 50px;
-        left: 1200px;
-        top: -400px;
-        text-align: center;
-      }
-      .h9:hover{
-        color: red;
-      }
-      .n1{
-        background-color: white;
-        padding: 15px 20px;
-        border: none;
-        opacity: 50%;
-        position: fixed;
-        width: 1900px;
-        height: 80px;
-        left: 0px;
-        top: 0px;
-      }
-      
-      .n2{
-        background-color: black;
-        border: none;
-        opacity: 100%;
-        position: fixed;
-        width: 1900px;
-        height: 25px;
-        left: 0px;
-        top: 100px;
-      }
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.7;
+  color: #c4c3ca;
+  background: linear-gradient(to right, #2196f3, #e91e63);
+  overflow-x: hidden;
+} 
+.n1{
+  background-color: black;
+  padding: 15px 20px;
+  border: none;
+  opacity: 50%;
+  position: absolute;
+  width: 1900px;
+  height: 90px;
+  left: 0px;
+  top: 0px;
+}
+.n2{
+  background-color:black;
+  padding: 15px 20px;
+  border: none;
+  position: absolute;
+  width: 1900px;
+  height: 0px;
+  left: 0px;
+  top: 100px;
+}
+.c1{
+  background-color: transparent;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.9;      
+  border-radius: 15px 20px;
+  
+  position: absolute;
+  width: 100px;
+  height: 50px;
+  left: 150px;
+  top: -10px;
+  text-align: center;
+}
+.c1:hover{
+  color: #e91e63;
+}
+.c2{
+  background-color: transparent;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.9;      
+  border-radius: 15px 20px;
+  
+  position: absolute;
+  width: 100px;
+  height: 50px;
+  left: 270px;
+  top: -10px;
+  text-align: center;
+}
+.c2:hover{
+  color: #e91e63;
+}
+.c3{
+  background-color: transparent;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.9;      
+  border-radius: 15px 20px;
+  
+  position: absolute;
+  width: 100px;
+  height: 50px;
+  left: 380px;
+  top: -10px;
+  text-align: center;
+}
+.c3:hover{
+  color: #e91e63;
+}
+.c4{
+  background-color: transparent;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.9;      
+  border-radius: 15px 20px;
+  
+  position: absolute;
+  width: 100px;
+  height: 50px;
+  left: 490px;
+  top: -10px;
+  text-align: center;
+}
+.c4:hover{
+  color: #e91e63;
+}
+.c5{
+  background-color: transparent;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.9;      
+  border-radius: 15px 20px;
+  
+  position: absolute;
+  width: 100px;
+  height: 50px;
+  left: 610px;
+  top: -10px;
+  text-align: center;
+}
+.c5:hover{
+  color: #e91e63;
+}
+.c6{
+  background-color: transparent;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.9;      
+  border-radius: 15px 20px;
+  
+  position: absolute;
+  width: 100px;
+  height: 50px;
+  left: 730px;
+  top: -10px;
+  text-align: center;
+}
+.c6:hover{
+  color: #e91e63;
+}
+.c7{
+  background-color: transparent;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.9;      
+  border-radius: 15px 20px;
+  
+  position: absolute;
+  width: 100px;
+  height: 50px;
+  left: 850px;
+  top: -10px;
+  text-align: center;
+}
+.c7:hover{
+  color: #e91e63;
+}
+.c8{
+  background-color: transparent;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.9;      
+  border-radius: 15px 20px;
+  
+  position: absolute;
+  width: 100px;
+  height: 50px;
+  left: 970px;
+  top: -10px;
+  text-align: center;
+}
+.c8:hover{
+  color: #e91e63;
+}
+.c9{
+  background-color: transparent;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.9;      
+  border-radius: 15px 20px;
+  
+  position: absolute;
+  width: 100px;
+  height: 50px;
+  left: 1090px;
+  top: -10px;
+  text-align: center;
+}
+.c9:hover{
+  color: #e91e63;
+}
       .Loginf{
-        background-color: transparent;
+        background-color: black;
         color: white;
         padding: 15px 20px;
         border: none;
@@ -220,7 +211,7 @@ body{
         border-radius: 15px 20px;
         border-style: solid;
         border-color: black;
-        position: fixed;
+        position: absolute;
         width: 100px;
         height: 50px;
         left: 1250px;
@@ -231,53 +222,77 @@ body{
         background-color: black;
         opacity: 1;
       }
-      .contactf{
-        position: fixed;
-      width: 813px;
-      height: 152px;
-      left: 30px;
-      top: -60px;
-      
-      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-      font-style: normal;
-      font-weight: 500;
-      font-size: 25px;
-      line-height: 160px;
-      
-      color: black;
+      .signupf{
+        background-color: black;
+        color: white;
+        padding: 15px 20px;
+        border: none;
+        cursor: pointer;
+        opacity: 0.9;      
+        border-radius: 15px 20px;
+        border-style: solid;
+        border-color: black;
+        position: absolute;
+        width: 100px;
+        height: 50px;
+        left: 1400px;
+        top: -75px;
+        text-align: center;
+      }
+      .signupf:hover{
+        background-color: black;
+        opacity: 1;
+      }
+      .border{
+        width: 100px;
+        height: 300px;
+        left: 500px;
+        margin-top: 330px;
+        background-color: transparent;
+        
     }
-    .emailf{
-      position: fixed;
-    width: 813px;
-    height: 152px;
-    left: 30px;
-    top: -30px;
+    .border .info{
+        position: absolute;
+        color: white;
+        opacity: 0;
+        transform: translate(-50%);
+        transition: 0.5s;
+        white-space: nowrap;
+    }
     
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 160px;
+    .border .info button{
+        width: 300px;
+        height: 300px;
+        border-radius: 10%;
+        background: black;
+        color: white;
+        overflow: hidden;
+        font-weight: bold;
+        cursor: pointer;
+        transition: 1s ease;
+    }
     
-    color: black;
-  }
-  .phonef{
-      position: fixed;
-    width: 813px;
-    height: 152px;
-    left: 30px;
-    top: 0px;
+    .border img {
+        position: absolute;
+        height: 100px;
+        width: 100px;
+        margin-top: -0px;
+        bottom: 587px;
+        margin-left: 73px;
+    }
     
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 160px;
-    
-    color: black;
-  }
-  .signupf{
-    background-color: transparent;
+    .border:hover{
+        background-color: transparent;
+    }
+    .border:hover .info{
+        opacity: 1;
+        transform: translateZ(0px);
+    }
+    .border .info button:hover{
+        background-color: black;
+    }
+    .lb{
+      background-color: black;
     color: white;
     padding: 15px 20px;
     border: none;
@@ -286,14 +301,29 @@ body{
     border-radius: 15px 20px;
     border-style: solid;
     border-color: black;
-    position: fixed;
-    width: 100px;
-    height: 50px;
-    left: 1400px;
-    top: -75px;
+    position: absolute;
+    width: 80px;
+    height:80px;
+    left: -20px;
+    top: -100px;
     text-align: center;
-  }
-  .signupf:hover{
-    background-color: black;
-    opacity: 1;
-  }
+    }
+    .glow {
+      font-size: 80px;
+      color: white;
+      text-align: center;
+      animation: glow 1s ease-in-out infinite alternate;
+      margin-left: -400px;
+      margin-top: -40px;
+    }
+    
+    @-webkit-keyframes glow {
+      from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px red;
+      }
+      
+      to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+      }
+    }
+    

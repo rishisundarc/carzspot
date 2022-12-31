@@ -1,41 +1,464 @@
-.b{
+.fb {
     position: absolute;
-  width: 813px;
-  height: 152px;
-  left: 50px;
-  top: -70px;
+    height: 100px;
+    width: 10px;
+    margin-top: 500px;
+    margin-left: 0px;
+}
+.border11{
+  width: 100%;
+  height: 100%;
+  left: -100px;
+  margin-top: -0px;
+  margin-left: 00px;
+  background-color:transparent;
   
-  font-family: 'Times New Roman', Times, serif;
-  font-style: normal;
-  font-weight: 1500;
-  font-size: 30px;
-  line-height: 160px;
-  
-  color: black;
-  }
-  .text1{
+}
+.border11 img {
     position: absolute;
-  width: 813px;
-  height: 152px;
-  left: 100px;
-  top: 25px;
-  
-  font-family: 'Times New Roman', Times, serif;
-  font-style: normal;
-  font-weight: 1500;
-  font-size: 20px;
-  line-height: 30px;
-  
-  color: black;
-  }
-  .b1{
-    background-color:white;
+    height: 100px;
+    width: 100px;
+    margin-top: 0px;
+
+    margin-left: 0px;
+}
+  .cf1{
+    background-color: transparent;
+    color: black;
     padding: 15px 20px;
     border: none;
-    opacity: 50%;
+    cursor: pointer;    
+    border-radius: 15px 20px;
     position: absolute;
-    width: 1900px;
-    height: 100px;
-    left: 0px;
-    top: 825px;
+    width: 100px;
+    height: 50px;
+    left: 500px;
+    top: 00px;
+    text-align: center;
+  }
+  .cf1:hover{
+    color: #e91e63;
+  }
+  .cf2{
+    background-color: transparent;
+    color: black;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;   
+    border-radius: 15px 20px;
+    
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    left: 510px;
+    top: 25px;
+    text-align: center;
+  }
+  .cf2:hover{
+    color: #e91e63;
+  }
+  .cf3{
+    background-color: transparent;
+    color: black;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;      
+    border-radius: 15px 20px;
+    
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    left: 495px;
+    top: 50px;
+    text-align: center;
+  }
+  .cf3:hover{
+    color: #e91e63;
+  }
+  .cf4{
+    background-color: transparent;
+    color: black;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;      
+    border-radius: 15px 20px;
+    
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    left: 520px;
+    top: 75px;
+    text-align: center;
+  }
+  .cf4:hover{
+    color: #e91e63;
+  }
+  .cf5{
+    background-color: transparent;
+    color: black;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;      
+    border-radius: 15px 20px;
+    
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    left: 510px;
+    top: 100px;
+    text-align: center;
+  }
+  .cf5:hover{
+    color: #e91e63;
+  }
+  .cf6{
+    background-color: transparent;
+    color: black;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;      
+    border-radius: 15px 20px;
+    
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    left: 515px;
+    top: 125px;
+    text-align: center;
+  }
+  .cf6:hover{
+    color: #e91e63;
+  }
+  .cf7{
+    background-color: transparent;
+    color: black;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;      
+    border-radius: 15px 20px;
+    
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    left: 510px;
+    top: 150px;
+    text-align: center;
+  }
+  .cf7:hover{
+    color: #e91e63;
+  }
+  .cf8{
+    background-color: transparent;
+    color: black;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;      
+    border-radius: 15px 20px;
+    
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    left: 710px;
+    top: 00px;
+    text-align: center;
+  }
+  .cf8:hover{
+    color: #e91e63;
+  }
+  .cf9{
+    background-color: transparent;
+    color: black;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;      
+    border-radius: 15px 20px;
+      position: absolute;
+    width: 150px;
+    height: 50px;
+    left: 725px;
+    top: 25px;
+    text-align: center;
+  }
+  .cf9:hover{
+    color: #e91e63;
+  }
+  .cf10{
+    background-color: transparent;
+    color: black;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;      
+    border-radius: 15px 20px;
+      position: absolute;
+    width: 150px;
+    height: 50px;
+    left: 740px;
+    top: 50px;
+    text-align: center;
+  }
+  .cf10:hover{
+    color: #e91e63;
+  }
+  .cf11{
+    background-color: transparent;
+    color: black;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;      
+    border-radius: 15px 20px;
+      position: absolute;
+    width: 200px;
+    height: 50px;
+    left: 740px;
+    top: 75px;
+    text-align: center;
+  }
+  .cf11:hover{
+    color: #e91e63;
+  }
+  .cf12{
+    background-color: transparent;
+    color: black;
+    border: none;
+    opacity: 0.9;      
+    border-radius: 15px 20px;
+    position: absolute;
+    width: 500px;
+    height: 30px;
+    left: -10px;
+    top: 220px;
+    text-align: center;
+  }
+  .cf13{
+    background-color: transparent;
+    color: black;
+    padding: 0px 0px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;      
+    border-radius: 15px 20px;
+    position: absolute;
+    width: 500px;
+    height: 30px;
+    left: 600px;
+    top: 220px;
+    text-align: center;
+  }
+  .cf13:hover{
+    color: #e91e63;
+  }
+  .cf14{
+    background-color: transparent;
+    color: black;
+    padding: 0px 0px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;      
+    border-radius: 15px 20px;
+    position: absolute;
+    width: 500px;
+    height: 30px;
+    left: 800px;
+    top: 220px;
+    text-align: center;
+  }
+  .cf14:hover{
+    color: #e91e63;
+  }
+  .cf15{
+    background-color: transparent;
+    color: black;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;      
+    border-radius: 15px 20px;
+    
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    left: 1010px;
+    top: 00px;
+    text-align: center;
+  }
+  .cf15:hover{
+    color: #e91e63;
+  }
+  .cf16{
+    background-color: transparent;
+    color: black;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;      
+    border-radius: 15px 20px;
+      position: absolute;
+    width: 150px;
+    height: 50px;
+    left: 1010px;
+    top: 25px;
+    text-align: center;
+  }
+  .cf16:hover{
+    color: #e91e63;
+  }
+  .cf17{
+    background-color: transparent;
+    color: black;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;      
+    border-radius: 15px 20px;
+      position: absolute;
+    width: 150px;
+    height: 50px;
+    left: 1025px;
+    top: 50px;
+    text-align: center;
+  }
+  .cf17:hover{
+    color: #e91e63;
+  }
+  .cf18{
+    background-color: transparent;
+    color: black;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;      
+    border-radius: 15px 20px;
+      position: absolute;
+    width: 200px;
+    height: 50px;
+    left: 1025px;
+    top: 75px;
+    text-align: center;
+  }
+  .cf18:hover{
+    color: #e91e63;
+  }
+  .cf19{
+    background-color: transparent;
+    color: black;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;      
+    border-radius: 15px 20px;
+    
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    left: 1270px;
+    top: 00px;
+    text-align: center;
+  }
+  .cf19:hover{
+    color: #e91e63;
+  }
+  .cf20{
+    background-color: transparent;
+    color: black;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;      
+    border-radius: 15px 20px;
+      position: absolute;
+    width: 150px;
+    height: 50px;
+    left: 1270px;
+    top: 25px;
+    text-align: center;
+  }
+  .cf20:hover{
+    color: #e91e63;
+  }
+  .cf21{
+    background-color: transparent;
+    color: black;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;      
+    border-radius: 15px 20px;
+      position: absolute;
+    width: 150px;
+    height: 50px;
+    left: 1268px;
+    top: 50px;
+    text-align: center;
+  }
+  .cf21:hover{
+    color: #e91e63;
+  }
+  .cf22{
+    background-color: transparent;
+    color: black;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;      
+    border-radius: 15px 20px;
+      position: absolute;
+    width: 200px;
+    height: 50px;
+    left: 1232px;
+    top: 75px;
+    text-align: center;
+  }
+  .cf22:hover{
+    color: #e91e63;
+  }
+  .cf23{
+    background-color: transparent;
+    color: black;
+    padding: 15px 20px;
+    border: none;
+    opacity: 0.9;      
+    border-radius: 15px 20px;
+      position: absolute;
+    width: 350px;
+    height: 50px;
+    left: 110px;
+    top: 0px;
+    text-align: center;
+  }
+  .cf24{
+    background-color: transparent;
+    color: black;
+    padding: 15px 20px;
+    border: none;
+    opacity: 0.9;      
+    border-radius: 15px 20px;
+      position: absolute;
+    width: 350px;
+    height: 50px;
+    left: 110px;
+    top: 130px;
+    text-align: center;
+  }
+  .cf25{
+    background-color: transparent;
+    color: black;
+    padding: 15px 20px;
+    border: none;
+    opacity: 0.9;      
+    border-radius: 15px 20px;
+      position: absolute;
+    width: 350px;
+    height: 50px;
+    left: 110px;
+    top: 160px;
+    text-align: center;
   }

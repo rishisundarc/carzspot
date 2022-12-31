@@ -1,60 +1,65 @@
 
-  .wrapper1 {
+  .wrapper15 {
     position: absolute;
       left: 5%;
-      top: 20%;
+      top: 200px;
    }
   
-  .wrapper2 {
+  .wrapper25 {
     position: absolute;
       left: 35%;
-      top: 20%;
+      top: 200px;
    } 
-   .wrapper3 {
+   .wrapper35 {
     position: absolute;
-      left: 65%;
-      top: 20%;
+      left: 60%;
+      top: 200px;
    }
-   .wrapper4 {
+   .wrapper45 {
     position: absolute;
       left: 5%;
-      top: 90%;
+      top: 850px;
    }
-   .wrapper5 {
+   .wrapper55{
     position: absolute;
       left: 35%;
-      top: 90%;
+      top: 850px;
    }
-   .wrapper6 {
+   .wrapper65 {
     position: absolute;
-      left: 65%;
-      top: 90%;
+      left: 60%;
+      top: 850px;
    }
-   .wrapper7 {
+   .wrapper75 {
     position: absolute;
       left: 5%;
-      top: 160%;
+      top: 1550px;
    }
   
-  .wrapper8 {
+  .wrapper85 {
     position: absolute;
       left: 35%;
-      top: 160%;
+      top: 1550px;
    }
-   .wrapper9 {
+   .wrapper95 {
     position: absolute;
-      left: 65%;
-      top: 160%;
+      left: 60%;
+      top: 1550px;
    }
-   .wrapper10 {
+   .wrapper105 {
     position: absolute;
       left: 5%;
-      top: 230%;
+      top: 2250px;
    }
-   .wrapper11 {
+   .wrapper115 {
     position: absolute;
       left: 35%;
-      top: 230%;
+      top: 2250px;
+   }
+   .wrapper125 {
+    position: absolute;
+      left: 60%;
+      top: 225%;
    }
    
 
@@ -126,27 +131,28 @@
     .card .info a {
       padding: 0.6rem;
       border-radius: 3px;
-      background: white;
+      background: linear-gradient(to right, #e91e63, #2196f3);
       color: black;
       font-weight: bold;
       cursor: pointer;
       transition: 0.4s ease;
     }
-    .card .info a:hover {
-        background: #22a6f0;
-        color: black;
-        border-radius: 7px;
-        box-shadow: 0 0 5px #22a6f0,
-        0 0 25px #22a6f0,
-        0 0 50px #22a6f0,
-        0 0 100px #22a6f0;
-      }
     h72{
-      text-align: center;
       font-size: 50px;
+      margin-top: 1000px;
+      margin-left: 500px;
     }
     .Img1{
       background-image: url('./img/Air.png');
       
     }
-  
+    .cad1{
+      background-color:white;
+      padding: 15px 20px;
+      border: none;
+      position: absolute;
+      width: 1900px;
+      height: 220px;
+      left: 0px;
+      top: 2965px;
+  }

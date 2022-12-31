@@ -1,62 +1,62 @@
   
-  .wrapper1 {
+  .cwrapper1 {
     position: absolute;
       left: 5%;
       top: 20%;
    }
   
-  .wrapper2 {
+  .cwrapper2 {
     position: absolute;
       left: 35%;
       top: 20%;
    } 
-   .wrapper3 {
+   .cwrapper3 {
     position: absolute;
       left: 65%;
       top: 20%;
    }
-   .wrapper4 {
+   .cwrapper4 {
     position: absolute;
       left: 5%;
       top: 90%;
    }
-   .wrapper5 {
+   .cwrapper5 {
     position: absolute;
       left: 35%;
       top: 90%;
    }
-   .wrapper6 {
+   .cwrapper6 {
     position: absolute;
       left: 65%;
       top: 90%;
    }
-   .wrapper7 {
+   .cwrapper7 {
     position: absolute;
       left: 5%;
       top: 160%;
    }
   
-  .wrapper8 {
+  .cwrapper8 {
     position: absolute;
       left: 35%;
       top: 160%;
    }
-   .wrapper9 {
+   .cwrapper9 {
     position: absolute;
       left: 65%;
       top: 160%;
    }
-   .wrapper10 {
+   .cwrapper10 {
     position: absolute;
       left: 5%;
       top: 230%;
    }
-   .wrapper11 {
+   .cwrapper11 {
     position: absolute;
       left: 35%;
       top: 230%;
    }
-   .wrapper12 {
+   .cwrapper12 {
     position: absolute;
       left: 65%;
       top: 230%;
@@ -128,23 +128,23 @@
     .card .info a {
       padding: 0.6rem;
       border-radius: 3px;
-      background: white;
+      background: linear-gradient(to right, #e91e63, #2196f3);
       color: black;
       font-weight: bold;
       cursor: pointer;
       transition: 0.4s ease;
     }
-    
-    .card .info a:hover {
-        background: #22a6f0;
-        color: black;
-        border-radius: 7px;
-        box-shadow: 0 0 5px #22a6f0,
-        0 0 25px #22a6f0,
-        0 0 50px #22a6f0,
-        0 0 100px #22a6f0;
-      }
       h2{
         text-align: center;
         font-size: 50px;
       }
+      .cat2{
+        background-color:white;
+        padding: 15px 20px;
+        border: none;
+        position: absolute;
+        width: 1900px;
+        height: 220px;
+        left: 0px;
+        top: 1805px;
+    }

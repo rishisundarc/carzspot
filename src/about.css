@@ -3,7 +3,7 @@
     width: 813px;
     height: 152px;
     left: 65px;
-    top:120px;
+    top:170px;
     
     font-family: cursive;
     font-style: normal;
@@ -12,4 +12,23 @@
     line-height: px;
     
     color: black;
+}
+.bat1{
+    background-color:white;
+    padding: 15px 20px;
+    border: none;
+    opacity: 0.9;
+    position: absolute;
+    width: 1900px;
+    height: 250px;
+    left: 0px;
+    top: 1000px;
+}
+.border10 img {
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    margin-top: -0px;
+    bottom: -50px;
+    margin-left: 1000px;
 }

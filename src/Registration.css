@@ -1,34 +1,18 @@
-.body1{
-    background: linear-gradient(to bottom right,black 10%,#22a6f0 90%);
-    min-height: 125vh;
-    min-width: 0vh;
-    position: relative;
-  }
-.submainr{
-    text-align: center;
-    position: fixed;
-    width: 450px;
-    height: 540px;
-    left: 500px;
-    top:80px;
-    background-color:white;
-    border-radius: 50px;
-    opacity: 80%;
-}
+
 
 .r1{
-    color:rgb(0, 0, 0);
-    top: 80px;
-    left:640px;
+    top: px;
+    left:170px;
     position:fixed;
+    font-size: 30px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .inputr{
     position: fixed;
     width: 500px;
     height: 20px;
-    top: 150px;
-    left: 600px;
+    top: 80px;
+    left: 120px;
 }
 .input-containerr{
     display: -ms-flexbox;
@@ -45,9 +29,9 @@
 }
 .r2{
     text-align: left;
-    color: rgb(0, 0, 0);
+    font-size: 30px;
     top: 280px;
-    left: 630px;
+    left: 10px;
     position: fixed;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -55,8 +39,8 @@
     position: fixed;
     width: 500px;
     height: 20px;
-    top: 200px;
-    left: 600px;
+    top: 150px;
+    left: 120px;
 }
 .input5-container{
     display: -ms-flexbox;
@@ -75,8 +59,8 @@
     position: absolute;
     width: 500px;
     height: 20px;
-    top: 250px;
-    left: 600px;
+    top: 220px;
+    left: 120px;
 }
 .input1-container{
 
@@ -96,7 +80,7 @@
     width: 500px;
     height: 20px;
     top: 350px;
-    left: 600px;
+    left: 120px;
 }
 .input2-container{
     display: -ms-flexbox;
@@ -115,8 +99,8 @@
     position: absolute;
     width: 500px;
     height: 20px;
-    top: 400px;
-    left: 600px;
+    top: 410px;
+    left: 120px;
 }
 .input3-container{
     display: -ms-flexbox;
@@ -135,8 +119,8 @@
     position: absolute;
     width: 500px;
     height: 20px;
-    top: 450px;
-    left: 600px;
+    top: 480px;
+    left: 120px;
 }
 .input4-container{
     display: -ms-flexbox;
@@ -152,16 +136,51 @@
     border-radius: 15px 20px;
 }
 .bs{
-    padding: 10px 10px;
-    width: 80px;
-    height: 40px;
-    color:rgb(1, 170, 170);
-    border-radius: 8%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
-    font-size: 90%;
-    cursor: pointer;
-    top: 530px;
-    left: 685px;
-    position: fixed;
+    width: 32%;
+    height: 82%;
+    background-color: #2a2b38;
+    background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/pat.svg');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: 300%;
+    position: absolute;
+    border-radius: 6px;
+    left: 500px;
+    top: 150px;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.sr1{
+    border-radius: 4px;
+    height: 44px;
+    font-size: 13px;
+    font-weight: 600;
+   margin-top: 520px;
+   margin-left: 180px;
+    text-transform: uppercase;
+    -webkit-transition : all 200ms linear;
+    transition: all 200ms linear;
+    padding: 0 30px;
+    letter-spacing: 1px;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    justify-content: center;
+    -ms-flex-pack: center;
+    text-align: center;
+    border: none;
+    background: linear-gradient(to right, #e91e63, #2196f3);
+    color: #102770;
+    box-shadow: 0 8px 24px 0 rgba(255,235,167,.2);
 }

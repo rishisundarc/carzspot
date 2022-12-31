@@ -1,61 +1,61 @@
-  .wrapper1 {
+  .wrapper11 {
     position: absolute;
       left: 5%;
-      top: 15%;
+      top: 20%;
    }
   
-  .wrapper2 {
+  .wrapper21 {
     position: absolute;
       left: 35%;
-      top: 15%;
+      top: 20%;
    } 
-   .wrapper3 {
+   .wrapper31 {
     position: absolute;
       left: 65%;
-      top: 15%;
+      top: 20%;
    }
-   .wrapper4 {
+   .wrapper41 {
     position: absolute;
       left: 5%;
       top: 85%;
    }
-   .wrapper5 {
+   .wrapper51 {
     position: absolute;
       left: 35%;
       top: 85%;
    }
-   .wrapper6 {
+   .wrapper61 {
     position: absolute;
       left: 65%;
       top: 85%;
    }
-   .wrapper7 {
+   .wrapper71 {
     position: absolute;
       left: 5%;
       top: 155%;
    }
   
-  .wrapper8 {
+  .wrapper81 {
     position: absolute;
       left: 35%;
       top: 155%;
    }
-   .wrapper9 {
+   .wrapper91 {
     position: absolute;
       left: 65%;
       top: 155%;
    }
-   .wrapper10 {
+   .wrapper101 {
     position: absolute;
       left: 5%;
       top: 225%;
    }
-   .wrapper11 {
+   .wrapper111 {
     position: absolute;
       left: 35%;
       top: 225%;
    }
-   .wrapper12 {
+   .wrapper121 {
     position: absolute;
       left: 65%;
       top: 225%;
@@ -126,23 +126,23 @@
     .card .info button {
       padding: 0.6rem;
       border-radius: 3px;
-      background: white;
+      background: linear-gradient(to right, #e91e63, #2196f3);
       color: black;
       font-weight: bold;
       cursor: pointer;
       transition: 0.4s ease;
     }
-    .card .info button:hover {
-        background: #22a6f0;
-        color: black;
-        border-radius: 7px;
-        box-shadow: 0 0 5px #22a6f0,
-        0 0 25px #22a6f0,
-        0 0 50px #22a6f0,
-        0 0 100px #22a6f0;
-      }
     .Img1{
       background-image: url('./img/Air.png');
       
     }
-  
+    .cat3{
+      background-color:white;
+      padding: 15px 20px;
+      border: none;
+      position: absolute;
+      width: 1900px;
+      height: 220px;
+      left: 0px;
+      top: 2205px;
+  }

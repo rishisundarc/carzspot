@@ -1,0 +1,243 @@
+a {
+	color: #adc7cb;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.header12 {
+	background: #fff;
+	height: 90px;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 150px;
+	left: 0;
+	width: 100%;
+}
+
+.header12-inner {
+	margin: auto;
+	padding: 0;
+	width: 700px;
+}
+
+.logo {
+	margin-top: 29px;
+	width: 240px;
+}
+
+.menu {
+	color: #00819b;
+	float: right;
+	font-size: 15px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	padding-top: 34px;
+}
+
+.heading {
+	margin: 10px auto 0;
+    color: black;
+	max-width: 700px;
+    margin-top: 300px;
+}
+.margin-20 {
+	margin-top: 20px;
+    color: black;
+}
+
+.margin-40 {
+	margin-top: 40px;
+    color: black;
+}
+
+.three-column {
+	display: grid;
+    grid-template-columns: 3fr .75fr .75fr;
+    grid-gap: 20px;
+}
+
+.mc {
+	float:right;
+}
+
+.mc img {
+	width: 40px;
+}
+
+
+ul.leaders {
+    max-width: 40em;
+    padding: 0;
+	margin-top: 0;
+    overflow-x: hidden;
+    list-style: none
+}
+
+ul.leaders li:before {
+    float: left;
+    width: 0;
+    white-space: nowrap;
+    content:
+ ". . . . . . . . . . . . . . . . . . . . "
+ ". . . . . . . . . . . . . . . . . . . . "
+ ". . . . . . . . . . . . . . . . . . . . "
+ ". . . . . . . . . . . . . . . . . . . . "}
+
+ul.leaders span:first-child {
+    padding-right: 0.33em;
+    background: #ecf0f9}
+
+ul.leaders span + span {
+    float: right;
+    padding-left: 0.33em;
+    background: #ecf0f9}
+
+.card1 {
+	background: #fff;
+	border-radius: 2px;
+	box-shadow: 0 2px 8px 1px #ccc;
+	margin: auto;
+	max-width: 620px;
+	padding: 40px;
+    margin-top: 80px;
+}
+
+.base-label {
+    color: black;
+    cursor: text;
+    display: block;
+	font-weight: 600;
+    margin-bottom: 6px;
+	text-transform: uppercase;
+    -webkit-transition: display .3s ease-out;
+    transition: display .3s ease-out;
+    font-size: 12px;
+    margin-left: 0px;
+}
+
+.grid-container {
+	background: #fff;
+  display: grid;
+  grid-template-columns: 19% 80%;
+  grid-template-rows: 48px 48px 48px 48px ;
+  gap: 1px 1px;
+  grid-template-areas: "Label-1 Text-1" "Label-2 Text-2" "Label-3 Text-3" "Label-4 Text-4";
+  margin-top: 40px;
+}
+
+.Label-1 { grid-area: Label-1;}
+.Text-1 { grid-area: Text-1; }
+.Label-2 { grid-area: Label-2; }
+.Text-2 { grid-area: Text-2; }
+.Label-3 { grid-area: Label-3; }
+.Text-3 { grid-area: Text-3; }
+.Label-4 { grid-area: Label-4; }
+.Text-4 { grid-area: Text-4; }
+
+.label-cell {
+	border-top: 1px solid #ccc;
+	padding: 12px;
+}
+
+.bottom-border {
+	border-bottom: 1px solid #ccc;
+}
+
+.label-cell-left {
+	padding-top: 18px;
+}
+
+
+.order-details {
+	margin-top: 0;
+}
+
+.input-cc-icon {
+	background: url(https://dl.dropbox.com/s/7xa2zvqhs2xhyq4/cc.png?dl=0) no-repeat scroll 7px 10px;
+}
+
+.base-input {
+    height: 20px;
+    background-color: #fbfafb;
+    border-radius: 2px;
+    width: 97%;
+    border: 1px solid #ccc;
+    padding: 8px 0 9px 10px;
+    margin-bottom: 18px;
+    color: #2f3d49;
+    line-height: 16px;
+    font-size: 14px;
+}
+
+.button {
+	background-color: hsl(16, 100%, 57%)/*#4b858e*/;
+	border: none;
+	border-radius: 4px;
+	color: #fff;
+	display: block;
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing: 2px;
+	margin: 24px 0 0;
+	min-width: 300px;
+	padding: 16px;
+	position: relative;
+	text-transform: uppercase;
+	transition: background-color 0.15s ease-out;
+	width: 99%;
+}
+
+.button:hover {
+	background-color: #FF4B0A;
+	cursor: pointer;
+}
+
+.footer {
+	background: #2f3d49;
+	height: 60px;
+	margin-top: 100px;
+	width: 100%
+}
+
+.footer-info {
+	color: #fff;
+	font-size: 13px;
+	margin: auto;
+	padding-top: 22px;
+	max-width: 700px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  body {
+	  margin: 0;
+    padding: 0 20px 0;
+  }
+	.logo {
+		margin-left: 20px
+	}
+	.inline {
+		width: 100%;
+	}
+
+}
+.fde1{
+    background-color:white;
+    padding: 15px 20px;
+    border: none;
+    opacity: 0.9;
+    position: absolute;
+    width: 1900px;
+    height: 250px;
+    left: 0px;
+    top: 2000px;
+}
+#vehicle1{
+    padding: 50px 50px;
+    left: 380px;
+    top: 872px;
+}
