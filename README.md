@@ -4,7 +4,7 @@ Carzpsot is a React.js application designed to help users shop for car accessori
 
 ## Project Overview
 
-- Carzpsot offers the following features:
+**Carzpsot offers the following features:**
 - **Accessory Shopping:** Browse and purchase a variety of car accessories.
 - **Service Reminders:** Set reminders for upcoming car services to ensure timely maintenance.
 - **Mechanic Finder:** Locate nearby mechanics based on the user's location.
