@@ -1,70 +1,87 @@
-# Getting Started with Create React App
+# Carzpsot
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Carzpsot is a React.js application designed to help users shop for car accessories, set reminders for car services, and find nearby mechanics. The application aims to provide a seamless experience for managing various aspects of car maintenance and accessories.
 
-## Available Scripts
+## Project Overview
 
-In the project directory, you can run:
+- Carzpsot offers the following features:
+- **Accessory Shopping:** Browse and purchase a variety of car accessories.
+- **Service Reminders:** Set reminders for upcoming car services to ensure timely maintenance.
+- **Mechanic Finder:** Locate nearby mechanics based on the user's location.
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Machine Learning:** LSTM (Long Short-Term Memory)
+- **Web Framework:** Flask
+- **Frontend:** HTML, CSS
+- **Data Processing:** pandas, numpy
+- **Plotting:** matplotlib
+- **Hyperparameter Tuning:** Keras Tuner (optional, for advanced users)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+To get started with this project, follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Clone the repository:**
 
-### `npm run build`
+    ```bash
+    git clone https://github.com/rishisundarc/stock-prediction-lstm.git
+    cd stock-prediction-lstm
+    ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. **Create a virtual environment (optional but recommended):**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+    ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. **Install the required packages:**
 
-### `npm run eject`
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4. **Download the dataset:**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    Ensure that you have the required dataset files (e.g., `AAPL_last_two_months_data.csv`) in the project directory.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Usage
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. **Run the Flask application:**
 
-## Learn More
+    ```bash
+    python app.py
+    ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+2. **Access the web application:**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    Open your web browser and go to [http://127.0.0.1:5000/](http://127.0.0.1:5000/) to interact with the application.
 
-### Code Splitting
+   - **Home Page:** Displays the main interface for selecting a company and viewing predictions.
+   - **Prediction Page:** Shows the predicted price for the next day and a plot of historical prices.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Project Structure
 
-### Analyzing the Bundle Size
+- `app.py`: The main Flask application file that includes routes and logic.
+- `data_preparation.py`: Contains functions for preparing data and training the model.
+- `lstm_stock_model.h5`: The trained LSTM model file.
+- `templates/`: Contains HTML files for the web interface.
+- `static/`: Contains CSS files and other static assets.
+- `requirements.txt`: Lists the Python dependencies.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Requirements
 
-### Making a Progressive Web App
+Ensure you have the following Python packages installed:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Flask
+- pandas
+- numpy
+- matplotlib
+- tensorflow
+- keras-tuner (optional, for hyperparameter tuning)
 
-### Advanced Configuration
+You can install all dependencies using:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+pip install flask pandas numpy matplotlib tensorflow keras-tuner
